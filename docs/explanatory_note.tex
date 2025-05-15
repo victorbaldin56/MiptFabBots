@@ -1,0 +1,53 @@
+% EXPLANATORY NOTE (explanatory_note.tex)
+\documentclass[a4paper,12pt]{article}
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[russian]{babel}
+\usepackage{hyperref}
+
+\title{Пояснительная записка к проекту прыгающего робота}
+\author{Балдин Виктор, Румянцев Иван, Голицын Артур}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+\section{Обоснование выбора проекта}
+Прыгающие роботы обладают преимуществами в преодолении сложного рельефа. Выбор ESP32 обусловлен:
+\begin{itemize}
+\item Наличием встроенного Wi-Fi
+\item Низким энергопотреблением
+\item Поддержкой Arduino IDE
+\end{itemize}
+
+\section{Описание системы}
+\subsection{Аппаратная часть}
+\begin{itemize}
+\item ESP32 как основной контроллер
+\item 2 сервопривода для управления прыжком
+\item Литиевый аккумулятор 18650
+\item Пружинный механизм из нерж. стали
+\end{itemize}
+
+\subsection{Программная часть}
+\begin{itemize}
+\item ESP32
+\end{itemize}
+
+\section{Процесс разработки}
+\begin{enumerate}
+\item Проектирование пружинного механизма в SolidWorks
+\item Сборка прототипа
+\item Калибровка сервоприводов
+\item Оптимизация энергопотребления
+\end{enumerate}
+
+\section{Результаты}
+\begin{itemize}
+\item Дальность прыжка: 15-20 см
+\item Время работы: 45 мин
+\item Задержка управления: <100 мс
+\item Репозиторий: \url{https://github.com/victorbaldin56/MiptFabBots}
+\end{itemize}
+
+\end{document}
